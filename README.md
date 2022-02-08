@@ -6,4 +6,8 @@ The supply of fossil fuels is constantly decreasing. The situation is very alarm
 
 The lighter the colour, the more the correlation between the two data points. For example, we can see that price and top_speed have correlation of “0.83”, which is a good score. So, the correlation data has many real-life similarities.
 
+![model](https://user-images.githubusercontent.com/90758723/153002206-340ef1e8-e61a-4ad4-91bd-673f2138bded.png)
+
+Now, We plot some Acceleration related plot and check how acceleration is related with other factors.
+
 
