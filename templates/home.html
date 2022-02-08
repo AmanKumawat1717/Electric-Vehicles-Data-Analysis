@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="../static/css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <title>Electric Vehicles Analysis</title>
+
+  </head>
+  <body>
+    <div class="container header">
+        <div class="row">
+            <div class="col-6">
+                <h1>Electric Vehicles Analysis </h1>
+            </div>
+            <div class="col-6 links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/stock/">Stock Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../static/images/thumb1.jpg" class="d-block w-100" alt="..." width="100%" height="450px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Audi Q4 e-tron</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../static/images/thumb-2.jpg" class="d-block w-100" alt="..." width="100%" height="450px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Mercedes Benz EQS</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../static/images/thumb-3.jpg" class="d-block w-100" alt="..." width="100%" height="450px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Nio Ep9</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../static/images/thumb-4.jpg" class="d-block w-100" alt="..." width="100%" height="450px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>BMW i Vision Circular</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class='container paragraph'>
+        <div class="row">
+            <div class="col-12">
+                <p>The supply of fossil fuels is constantly decreasing. The situation is very alarming. It is time for the world to slowly adapt to electric vehicles. A lot of change needs to happen. Major car makers like Tesla 
+                    and Porsche manufacture many electric vehicles. The improvement of battery technology in recent years has led to the higher popularity of electric vehicles. Buying an electric vehicle can be a great choice 
+                    for consumers. The drive quality, low noise levels, and convenience are really great. In the United States, one year of driving a petrol car can cost from 1500 USD to 2500 USD. On the other hand, the driving
+                     cost of Electric Vehicles is 500 USD. Electric cars are more preferable. The maintenance cost of electric vehicles is also very low. They are economical to maintain. The energy conversion efficiency of electric
+                      vehicles is also high. Electric vehicles use 60-70% of electrical energy. On the other hand, vehicles based on internal combustion engines have an efficiency of 18-22% only.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4>Here, We analysis some data related to  Electric Vehicles </h4>
+                <p>Data Source: <a href="https://www.kaggle.com/kerneler/starter-evs-one-electric-vehicle-4adc62ea-d/data">https://www.kaggle.com/kerneler/starter-evs-one-electric-vehicle-4adc62ea-d/data</a></p>
+                <h2>Electric Vehicles Data</h2>
+                <ol>
+                    <li>Acceleration (0-100) in Seconds</li>
+                    <li>Top Speed in Km/hr</li>
+                    <li>Range of Vehicle in km</li>
+                    <li>The efficiency of Vehicle in Wh/km</li>
+                    <li>Fast charge speed in km/hr</li>
+                    <li>Number of seats</li>
+                    <li>PowerTrain</li>
+                    <li>Model</li>
+                </ol>
+                <p>The data consists of 103 vehicles and there are some missing values as well. We can conduct various data analytics visualizations to understand the data and information. This gives us an idea about the market as
+                     a whole and overall data distribution. Often, this type of data gives insight into the market and lets businesses conduct market research. The electric vehicle market is growing at a fast pace, with proper
+                      investment and research, the field can be improved and a higher level of efficiency can be achieved.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12">
+                <img src="../static/images/corr.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>The lighter the colour, the more the correlation between the two data points. For example, we can see that price and top_speed have correlation of “0.83”, which is a good score. So, the correlation
+                     data has many real-life similarities.</p>
+                    <p>The correlation heatmap is thus, a great way to understand which data columns are related to each other.</p>
+                    <p><strong>Let us look the total Models of each company.....</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12">
+                <img src="../static/images/model.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>Here, Tesla and Audi have the most number of Electric Vehicles.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p><strong>Now, We have a look at the count of each type of drive/powerdrain for the vehicles...</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12">
+                <img src="../static/images/powertrain.png" width="80%" height="90%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p><strong>Now, We have a look at the count of both drive/powerdrain and No. of Seats for the vehicles...</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12">
+                <img src="../static/images/powerseat.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p><strong>Now, We plot some Acceleration related plot and check how acceleration is related with other factors.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12">
+                <img src="../static/images/accel.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>So, from above figure. We can see the relation of acceleration with different parameters of Electric Vehicles.</p>
+                <p>Electric vehicles that having lower value of acceleartion or higher value of torque having higher Top_Speed, having highest range/km and also have high price. </p>
+                <p><strong>In below fig. we can see that how powertrain or each type of drive of vehicles are inter-related with price.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12">
+                <img src="../static/images/accelpricepower.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>We can see that the plots can help us understand the data distribution in a better way.</p>
+                <p><strong>Next up, we plot the relation between Top Speed and Vehicle Range.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12">
+                <img src="../static/images/toprange.png" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p><strong>Top 10 Electric Vehicles Model According to Range/km.</strong> </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12">
+                <img src="../static/images/top10ev.png" width="100%" height="90%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>So, from the both above and below data plots we can conclude that vehicles that having lower value of acceleration has highest top_spped, range,
+                     price. And all these factors apart from acceleartion are direclty parportional to the vehicles powertrain.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datapics">
+        <div class="row">
+            <div class="col-12 rmsize">
+                <img src="../static/images/last.png" width="70%" height="70%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>So, from the both above analysis we can select those Models that having lower value of Acceleration/sec or highre value of torque
+                    and that having good range and fast charging feature.
+                </p>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="container footer">
+        <div class="row">
+            <div class="col">
+                <p>&copy; Aman Kumawat</p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  </body>
+</html>

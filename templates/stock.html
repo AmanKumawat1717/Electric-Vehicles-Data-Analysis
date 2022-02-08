@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="../static/css/stock.css">
+
+    <title>Electric Vehicles Analysis</title>
+  </head>
+  <body>
+    <div class="container header">
+      <div class="row">
+          <div class="col-6">
+              <h1>Electric Vehicles Analysis </h1>
+          </div>
+          <div class="col-6 links">
+              <ul>
+                  <li><a href="/home/">Home</a></li>
+                  <li><a href="#">Stock Data</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../static/images/stock3.png" class="d-block w-100"  width="100%"  height="450px">
+            </div>
+            <div class="carousel-item">
+              <img src="../static/images/stock2.jpeg" class="d-block w-100"  width="100%" height="450px">
+
+            </div>
+            <div class="carousel-item">
+              <img src="../static/images/stock1.jpeg" class="d-block w-100" width="100%" height="450px">
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h4>Here, We analysis of Stock data related to  Electric Vehicles. Which includes data of Tesla, Nissan, Volkswagen. </h4>
+            <p>Data Source : <a href="https://www.kaggle.com/meetnagadia/share-price-of-top-electric-car-company">https://www.kaggle.com/meetnagadia/share-price-of-top-electric-car-company</a></p>
+            <h2>Stock Data</h2>
+            <ol>
+                <li>Open</li>
+                <li>Close</li>
+                <li>Date</li>
+                <li>high</li>
+                <li>Low</li>
+                <li>Volume</li>
+                <li>Adj Close	</li>
+            </ol>
+            <p>The data consists of approx. 1250 rows and 7 columns. We can conduct various data analytics visualizations to understand the data and information. This gives us an idea about the market as
+                 a whole and overall data distribution. Often, this type of data gives insight into the market and lets businesses conduct market research. The electric vehicle market is growing at a fast pace, with proper
+                  investment and research, the field can be improved and a higher level of efficiency can be achieved.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container datapics">
+  <div class="row">
+      <div class="col-12">
+          <img src="../static/images/open.png" width="100%" height="100%">
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12">
+          <p>In above plot we can clearly see that Nissan opening is dominating over Tesla and Volkswagen.But in year 2020 there is a clear spike down in opening and the the opening of Tesla stocks goes high, While Volkswagen is Constant. </p>
+              <p><strong>Let us look at total no. of volume traded.....</strong></p>
+      </div>
+  </div>
+</div>
+
+<div class="container datapics">
+  <div class="row">
+      <div class="col-12">
+          <img src="../static/images/vol1.png" width="100%" height="100%">
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12">
+        <p>Basically, Volume is nothing but the number of shares of a security traded during a given period of time.</p>
+          <p>Here, We can see their are spikes in the plot.</p>
+          <p>Like, In Tesla volume stock there is clear spike in starting of 2020. And there is a spike of green color which is of Nissan in late 2018.</p>
+          <p>When their is a sudden increase in Volume trade than there are more chances that the opening of stock will fall down.</p>
+          <p>Here, We consider the case of nissan Stock. On 2018-11-19 to 2018-11-20 there is maximum volume excahnge takes place as we see in the above plot.</p>
+          <p>But on the next day stock opening price was fall as shown below.</p>
+      </div>
+  </div>
+</div>
+
+<div class="container datapics">
+  <div class="row">
+      <div class="col-12">
+          <img src="../static/images/nissanopening.png " width="100%" height="100%">
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12">
+        <p>In below figure,We can see total money traded in each of these companies during past year.</p>
+      </div>
+  </div>
+</div>
+
+
+<div class="container datapics">
+  <div class="row">
+      <div class="col-12">
+          <img src="../static/images/Volume2.png" width="100%" height="100%">
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12">
+        <p>In below figure,We can see the correlation between the opening stock price of these companies..</p>
+      </div>
+  </div>
+</div>
+
+<div class="container datapics">
+  <div class="row">
+      <div class="col-12">
+          <img src="../static/images/matrix.png" width="100%" height="100%">
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12">
+        <p>Let's Check the which stock is more volatile or we can say that which one is not good for long term investment.</p>
+        <p>In the below plot blue color looks more volatile over green and orange i.e., the stock of tesla having higher Standard Deviation as compare to Nissan and Volkswagen
+          or we can say that Tesla Stocks are more volatile than other two.
+        </p>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="container datapics">
+  <div class="row">
+      <div class="col-12">
+          <img src="../static/images/inv.png" width="100%" height="100%">
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-12">
+        <p>For better Understanding just look at the below plot.
+          Here, blue, green, orange represents Tesla , Nissan , Volkswagen Stocks. As we can see Tesla has more volatility and Nissan and Volkswagen are approx same.
+          So, for long term investment Tesla stocks are not good bcoz they are more volatile. 
+        </p>
+      </div>
+  </div>
+</div>
+
+
+<div class="container datapics">
+  <div class="row">
+      <div class="col-12">
+          <img src="../static/images/inv2.png " width="100%" height="100%">
+      </div>
+  </div>
+</div>
+
+
+  <div class="container footer">
+    <div class="row">
+        <div class="col">
+            <p>
+              &copy; Aman Kumawat</p>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
