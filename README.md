@@ -19,7 +19,7 @@ Electric vehicles that having lower value of acceleartion or higher value of tor
 
 So, from the both above analysis we can select those Models that having lower value of Acceleration/sec or highre value of torque and that having good range and fast charging feature.
 
-<-----------------STOCK DATA ANALYSIS----------------------->
+<---------------------------------------------------------------STOCK DATA ANALYSIS------------------------------------------------------------->
 
 Basically, Volume is nothing but the number of shares of a security traded during a given period of time.
 Here, We can see their are spikes in the plot.
