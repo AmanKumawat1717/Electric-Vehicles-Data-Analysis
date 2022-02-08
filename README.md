@@ -19,4 +19,29 @@ Electric vehicles that having lower value of acceleartion or higher value of tor
 
 So, from the both above analysis we can select those Models that having lower value of Acceleration/sec or highre value of torque and that having good range and fast charging feature.
 
+<-----------------STOCK DATA ANALYSIS----------------------->
+
+Basically, Volume is nothing but the number of shares of a security traded during a given period of time.
+Here, We can see their are spikes in the plot.
+Like, In Tesla volume stock there is clear spike in starting of 2020. And there is a spike of green color which is of Nissan in late 2018.
+When their is a sudden increase in Volume trade than there are more chances that the opening of stock will fall down.
+Here, We consider the case of nissan Stock. On 2018-11-19 to 2018-11-20 there is maximum volume excahnge takes place as we see in the above plot.
+
+![vol](https://user-images.githubusercontent.com/90758723/153003533-d2b8e41b-312f-4b81-b186-11bf22b639bc.png)
+
+In below figure,We can see the correlation between the opening stock price of these companies.
+
+![matrix](https://user-images.githubusercontent.com/90758723/153003828-30510390-a0a3-420f-98b2-1e634c86cde3.png)
+
+Let's Check the which stock is more volatile or we can say that which one is not good for long term investment.
+In the below plot blue color looks more volatile over green and orange i.e., the stock of tesla having higher Standard Deviation as compare to Nissan and Volkswagen or we can say that Tesla Stocks are more volatile than other two.
+
+![inv](https://user-images.githubusercontent.com/90758723/153003974-87ad090f-4968-4745-8e6f-1f65386320e2.png)
+
+For better Understanding just look at the below plot. Here, blue, green, orange represents Tesla , Nissan , Volkswagen Stocks. As we can see Tesla has more volatility and Nissan and Volkswagen are approx same. So, for long term investment Tesla stocks are not good bcoz they are more volatile.
+
+![inv2](https://user-images.githubusercontent.com/90758723/153004093-1a3dfe15-7d82-493e-9fa2-92d11d9b7071.png)
+
+
+
 
