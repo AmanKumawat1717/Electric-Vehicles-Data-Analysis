@@ -10,4 +10,11 @@ The lighter the colour, the more the correlation between the two data points. Fo
 
 Now, We plot some Acceleration related plot and check how acceleration is related with other factors.
 
+![accel](https://user-images.githubusercontent.com/90758723/153002516-b2a0ab78-04fa-414e-9c53-528915bc857f.png)
+
+So, from above figure. We can see the relation of acceleration with different parameters of Electric Vehicles.
+Electric vehicles that having lower value of acceleartion or higher value of torque having higher Top_Speed, having highest range/km and also have high price.
+
+
+
 
