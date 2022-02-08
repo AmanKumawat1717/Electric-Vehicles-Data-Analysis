@@ -15,6 +15,8 @@ Now, We plot some Acceleration related plot and check how acceleration is relate
 So, from above figure. We can see the relation of acceleration with different parameters of Electric Vehicles.
 Electric vehicles that having lower value of acceleartion or higher value of torque having higher Top_Speed, having highest range/km and also have high price.
 
+![last](https://user-images.githubusercontent.com/90758723/153002964-337138ea-427a-4c0a-b6b1-bccf2789fc64.png)
 
+So, from the both above analysis we can select those Models that having lower value of Acceleration/sec or highre value of torque and that having good range and fast charging feature.
 
 
